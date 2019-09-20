@@ -125,4 +125,17 @@ store.subscribe() - well named function - what’s the argument passed in the fu
 * If you take a look at the entire code now, you’ll agree that the entry point of the app remains index.js .
 * Index.js then renders the App component. The App component is then responsible for rendering the Main and Sidebar components.
 * For Sidebar to have access to the required contacts data, we’ll pass in the data via props.
-* In App.js, retrieve contacts from the store, and pass it on to Sidebar like this:
+* In App.js, retrieve contacts from the store, and pass it on to Sidebar like this
+    ```
+    const App = () => {
+    const { contacts } = store.getState();
+
+    return (
+        <div className="App">
+        <Sidebar contacts={contacts} />
+        <Main />
+        </div>
+    );
+    };
+    ```
+* Now, to use any of the utility methods lodash avails to us, call the methods on the imported underscore, such as .fakeMethod()

@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Sidebar from './Sidebar';
 import Main from './Main';
+import  _ from lodash
 
 // function App() {
 //   return (
