@@ -112,10 +112,17 @@ store.subscribe() - well named function - what’s the argument passed in the fu
 * Time application using  react - storing the right thing is very important
 * Change the time using redux
 * Handle increase and decrease actions to actually affect the displayed time on the counter
-### MAKING A NEW REACT APPLICATION
+
+### Making a new React Application
 * Lots of js and css for the beginning
 * Iterating over lists - 
     * We can use different mapping functions  - users.map(user => {return <User/>} - User is another class, in the sense of an object
     * Using lodash
     * Order of returned values is not in the same order -> this can be used in the chat application
     * We copy paste the static-data.js which basically has some data in it- it has methods which generate some data within it, like generateUsers, or Msgs
+
+### How does the App work
+* If you take a look at the entire code now, you’ll agree that the entry point of the app remains index.js .
+* Index.js then renders the App component. The App component is then responsible for rendering the Main and Sidebar components.
+* For Sidebar to have access to the required contacts data, we’ll pass in the data via props.
+* In App.js, retrieve contacts from the store, and pass it on to Sidebar like this:
