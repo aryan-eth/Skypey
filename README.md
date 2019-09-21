@@ -139,3 +139,7 @@ store.subscribe() - well named function - what’s the argument passed in the fu
     };
     ```
 * Now, to use any of the utility methods lodash avails to us, call the methods on the imported underscore, such as .fakeMethod()
+
+### Libraries installed
+* Text Gen - txtgen
+
