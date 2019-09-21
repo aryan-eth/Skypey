@@ -142,4 +142,10 @@ store.subscribe() - well named function - what’s the argument passed in the fu
 
 ### Libraries installed
 * Text Gen - txtgen
+* Lodash
+
+### Small React-Native bugs
+* Export default App at the end of files if you're importing that somewhere
+* ./{Something} from the same directory - can be a file or a folder
+* npm install {library} --save -> saves it - maybe?, better?
 
