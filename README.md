@@ -66,7 +66,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
-## Redux guiide - https://www.freecodecamp.org/news/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6/
+## Redux guide
+* https://www.freecodecamp.org/news/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6/
 
 ### Notes
 * Reduce method is the most important in redux as well, it’s a higher order in javascript as we all know - find the sum of all numbers using the function reduce
@@ -148,4 +149,7 @@ store.subscribe() - well named function - what’s the argument passed in the fu
 * Export default App at the end of files if you're importing that somewhere
 * ./{Something} from the same directory - can be a file or a folder
 * npm install {library} --save -> saves it - maybe?, better?
+
+### Screen shots
+<img width="1400" alt="ss1" src="https://user-images.githubusercontent.com/31454667/65368022-727aa480-dc08-11e9-82ff-8be4302c43ac.png">
 
