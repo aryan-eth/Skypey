@@ -1,5 +1,5 @@
 import { createStore } from "redux";
-import reducer from "../reducers";
+import reducer from "../reducers/contacts";
 import { contacts } from "../static-data";
 
 // The Redux createStore needs to be aware of the reducer
